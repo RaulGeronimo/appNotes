@@ -1,0 +1,25 @@
+<div class="col-md-4 mx-auto">
+  <div class="card mt-5 bg-black text-white rounded">
+    <div class="card-header text-center pt-5">
+      <h1 class="h4 text-white">Actualizar Nota</h1>
+    </div>
+    <div class="card-body">
+      <form action="/notes/edit-note/{{note._id}}?_method=PUT" method="post">
+        <div class="mb-3">
+          <label for="titulo" class="form-label">Titulo</label>
+          <input type="text" class="form-control" id="titulo" name="title" placeholder="Titulo" autofocus
+            value="{{note.title}}">
+        </div>
+
+        <div class="mb-3">
+          <label for="description" class="form-label">Descripción</label>
+          <textarea name="description" id="description" rows="3" class="form-control"
+            placeholder="Descripcion">{{note.description}}</textarea>
+        </div>
+
+        <button type="submit" class="btn btn-success">Actualizar</button>
+        <a class="btn btn-info" href="/notes" role="button">Regresar</a>
+      </form>
+    </div>
+  </div>
+</div>
