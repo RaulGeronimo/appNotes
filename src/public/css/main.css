@@ -12,3 +12,7 @@ body {
 .bg-black {
   background: #090909;
 }
+
+.notes{
+  margin-bottom: 1.5rem;
+}
