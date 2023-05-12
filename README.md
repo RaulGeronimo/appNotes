@@ -1,7 +1,7 @@
 # appNotes
 Código del proyecto "Aplicación Notas" utilizando NodeJS, el gestor de bases de datos utilizado fue MongoDB.
 
-https://user-images.githubusercontent.com/94584093/227758415-7fdc3152-41ff-468a-b587-0479e598847e.mp4
+https://github.com/RaulGeronimo/appNotes/assets/94584093/25ba8b3f-4405-4949-ac0d-8a05f1d22012
 
 Esta es una aplicación web básica para administrar notas a traves de un login utilizando tecnologías como NodeJS, Handlebars, JavaScript y MongoDB.
 
